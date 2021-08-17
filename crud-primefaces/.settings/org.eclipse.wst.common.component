@@ -11,7 +11,7 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
                 
         <property name="java-output-path" value="/crud-primefaces/target/classes"/>
-        <property name="context-root" value="Sistema_de_Cadastro_com_JSF_e_Primefaces"/>
+        <property name="context-root" value="CrudJSF"/>
             
     </wb-module>
     
