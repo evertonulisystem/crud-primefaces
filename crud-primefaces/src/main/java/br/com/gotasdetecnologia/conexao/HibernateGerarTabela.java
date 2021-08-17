@@ -7,12 +7,12 @@ public class HibernateGerarTabela implements ServletContextListener {
 
 	@Override
 	public void contextDestroyed(ServletContextEvent evento) {
-		HibernateUtil.getConexaoBaseLocal().close();
+		HibernateUtil.getSessionFactory().close();
 	}
 
 	@Override
 	public void contextInitialized(ServletContextEvent evento) {
-		HibernateUtil.getConexaoBaseLocal();
+		HibernateUtil.getSessionFactory();
 	}
 
 }
