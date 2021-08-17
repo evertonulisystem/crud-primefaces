@@ -48,7 +48,8 @@
 			<version>2.2.20</version>
 		</dependency>
 
-		<!--  HIBERNATE
+		<!--  HIBERNATE 
+		Esta versao nao permite criação das tabelas
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>

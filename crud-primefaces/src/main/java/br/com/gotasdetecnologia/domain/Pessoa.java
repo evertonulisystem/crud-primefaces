@@ -2,9 +2,13 @@ package br.com.gotasdetecnologia.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+
+import br.com.gotasdetecnologia.enuns.SituacaoEnum;
 
 @Entity
 @javax.persistence.Table(name="tb_Pessoa")
@@ -26,6 +30,11 @@ public class Pessoa {
 	
 	@Column(name="cpf")
 	private String cpf;
+	
+	@Enumerated(EnumType.STRING)
+	@Column(name = "situacao", length = 10)
+	
+	private SituacaoEnum situacao;
 
 	public Long getId() {
 		return id;
@@ -65,6 +74,14 @@ public class Pessoa {
 
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
+	}
+
+	public SituacaoEnum getSituacao() {
+		return situacao;
+	}
+
+	public void setSituacao(SituacaoEnum situacao) {
+		this.situacao = situacao;
 	}
 	
 		
