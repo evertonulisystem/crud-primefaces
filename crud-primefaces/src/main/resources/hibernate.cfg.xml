@@ -14,7 +14,7 @@
   <property name="hibernate.connection.password">Imb123</property>
   <property name="hibernate.connection.pool_size">5</property>
   <property name="hibernate.connection.provider_class">java.sql.Connection</property>
-  <property name="hibernate.hbm2ddl.auto">update</property>
+  <property name="hibernate.hbm2ddl.auto">create</property>
  </session-factory>
  
  <!-- Mapeamento as tabelas -->
