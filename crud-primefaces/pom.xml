@@ -69,40 +69,11 @@
 			<version>42.2.23</version>
 		</dependency>
 
-
-		<!-- RELATÓRIOS COM JASPERREPORT -->
+<!-- RELATÓRIOS COM JASPERREPORT -->
 		<dependency>
 			<groupId>net.sf.jasperreports</groupId>
 			<artifactId>jasperreports</artifactId>
 			<version>6.17.0</version>
 		</dependency>
-
-		<!-- -->
-
-		<!-- -->
-
-
 	</dependencies>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </project>
